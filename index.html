@@ -1,0 +1,42 @@
+<body>
+    <h1>Le titre de mon site beaucoup trop beau</h1>
+    <p>Mon chat est trop beau</p>
+    <link rel="stylesheet" href="index.css">
+
+    <div>
+      <img src="images/cat.jpg" alt="Mon chat trop beau">
+    </div>
+
+    <!-- SECTION FLEXBOX -->
+    <div class="flex-container">
+
+        <!-- FORMULAIRE -->
+        <div class="flex-item">
+            <h2>Formulaire de contact</h2>
+            <form class="contact-form">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom">
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Votre email">
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" placeholder="Votre message"></textarea>
+
+                <button type="submit" class="btn-primary">Envoyer</button>
+                <button type="reset" class="btn-secondary">Reset</button>
+            </form>
+        </div>
+
+        <!-- BOUTONS -->
+        <div class="flex-item">
+            <h2>Boutons d’action</h2>
+            <div class="button-box">
+                <button class="btn-primary">Bouton principal</button>
+                <button class="btn-secondary">Bouton secondaire</button>
+                <button class="btn-danger">Bouton danger</button>
+            </div>
+        </div>
+
+    </div>
+</body>

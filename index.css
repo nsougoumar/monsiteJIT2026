@@ -1,0 +1,102 @@
+h1 {
+    color :#BD4444;
+    text-align: center;
+    size: 144px;
+}
+div{
+    text-align: center;
+}
+img{
+        width: 300px;              /* taille de l’image */
+    border-radius: 10px;       /* arrondi */
+    border: 10px solid #003366;/* ton cadre bleu */
+    background: #e6f0ff;       /* bleu pastel très léger derrière l’image */
+    padding: 5px;            
+body {
+    font-family: Arial, sans-serif;
+}
+/* --- FLEXBOX --- */
+.flex-container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+/* Cartes pastel */
+.flex-item {
+    flex: 1;
+    min-width: 300px;
+    background: #ffeef7; /* rose pastel */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* --- FORMULAIRE --- */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 2px solid #ffd6e8; /* rose très clair */
+    border-radius: 10px;
+    font-size: 16px;
+    background: #fff;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+/* --- BOUTONS PASTEL --- */
+.btn-primary {
+    background: #bcdcff; /* bleu pastel */
+    color: #003366;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background: #ffe6f2; /* rose pastel clair */
+    color: #66334d;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-danger {
+    background: #ffb3c6; /* rose rouge pastel */
+    color: #661a2c;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover pastel */
+button:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+    transition: 0.2s;
+}
+
+/* --- TITRES PASTEL --- */
+h1, h2 {
+    color: #b85cff; /* violet pastel */
+    font-family: Arial, sans-serif;
+}
