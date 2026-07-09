@@ -7,11 +7,12 @@ div{
     text-align: center;
 }
 img{
-        width: 300px;              /* taille de l’image */
-    border-radius: 10px;       /* arrondi */
-    border: 10px solid #003366;/* ton cadre bleu */
-    background: #e6f0ff;       /* bleu pastel très léger derrière l’image */
-    padding: 5px;            
+        width: 300px;              
+    border-radius: 10px;      
+    border: 10px solid #003366;
+    background: #e6f0ff;       
+    padding: 5px;  
+}
 body {
     font-family: Arial, sans-serif;
 }
